@@ -1,5 +1,5 @@
 
-public class Bicycle extends Vehicle {
+public class Bicycle extends Vehicle implements Servised{
 
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
@@ -9,5 +9,7 @@ public class Bicycle extends Vehicle {
     public void updateTyre() {
         System.out.println("Меняем покрышку на велосипеде");
     }
+
+
 }
 
