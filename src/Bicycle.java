@@ -1,5 +1,5 @@
 
-public class Bicycle extends Vehicle implements Servised{
+public class Bicycle extends Vehicle{
 
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
